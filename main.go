@@ -47,11 +47,15 @@ func processProject(projectPath string, outputFile string, includeConfig bool) e
 		"node_modules": true,
 		".git":         true,
 		"dist":         true,
+		"examples":     true,
 		"build":        true,
 		".next":        true,
 		".svelte-kit":  true,
 		".astro":       true,
 		"coverage":     true,
+		".vscode":      true,
+		"out":          true,
+		"public":       true,
 	}
 
 	// Define security-sensitive files to exclude (always excluded)
